@@ -1,0 +1,29 @@
+Mn3Sn VASP Zeeman magnetic-group symmetry report
+====================================================
+calculation = zeeman_shift
+directory = /Users/dongruizhi/Library/CloudStorage/OneDrive-个人/A-RzDong/bit-phd/Projects/Wannier/Mn3Sn/Vasp-Current/Zeeman-shift/k48
+data_source = VASP
+magnetic_point_group = m_x m_y' m_z' (mm'm')
+axes = x,y in basal plane; z parallel c
+tensor = response[a_spin,b_polar,c_polar]
+complex_phase_convention = shift imaginary-prefactor convention
+antiunitary rule = -axial_spin * spatial_polar * conjugation
+photon_energy_points = 300
+energy_range_eV = 0 .. 2.99
+
+E: antiunitary=false  relative_max=0.00000000e+00  relative_L2=0.00000000e+00
+inversion: antiunitary=false  relative_max=0.00000000e+00  relative_L2=0.00000000e+00
+T*C2z: antiunitary=true  relative_max=1.22647032e-02  relative_L2=9.46678727e-03
+T*mz: antiunitary=true  relative_max=1.22647032e-02  relative_L2=9.46678727e-03
+T*C2y: antiunitary=true  relative_max=5.09613415e-03  relative_L2=3.43595011e-03
+T*my: antiunitary=true  relative_max=5.09613415e-03  relative_L2=3.43595011e-03
+C2x: antiunitary=false  relative_max=1.22701705e-02  relative_L2=9.97127593e-03
+mx: antiunitary=false  relative_max=1.22701705e-02  relative_L2=9.97127593e-03
+
+group_projection_relative_max = 6.13508524e-03
+group_projection_relative_L2 = 5.01064065e-03
+result_is_modified = false
+
+Interpretation: inversion is exact for this rank-3 tensor; the remaining
+residual measures k-grid/integration and numerical convergence, not a
+symmetry-enforced zero after post-processing.

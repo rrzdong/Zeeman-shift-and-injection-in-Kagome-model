@@ -1,0 +1,38 @@
+Mn3Sn Zeeman injection Gaussian spectra, gamma = 0.1 eV, tau = 1 ps
+VASP k32 source: /Users/dongruizhi/Library/CloudStorage/OneDrive-个人/A-RzDong/bit-phd/Projects/Wannier/Mn3Sn/Vasp-Current/Zeeman-injection/k32-guass (historical output divided by 1000 for comparison)
+VASP k48 source: /Users/dongruizhi/Library/CloudStorage/OneDrive-个人/A-RzDong/bit-phd/Projects/Wannier/Mn3Sn/Vasp-Current/Zeeman-injection/k48-guass (new tau_ps output, no scaling)
+Wannier k50 source: /Users/dongruizhi/Library/CloudStorage/OneDrive-个人/A-RzDong/bit-phd/Projects/Wannier/Mn3Sn/Current/zeeman-injection-soc/k50-multitask-v3.1.0 (Gaussian, same gamma and tau)
+Original source spectra remain unchanged.
+Wannier k50 photon energies are interpolated onto VASP k48 grid for metrics only.
+
+VASP k48 versus k32
+component part correlation relative_L2 peak_ratio
+xyz real   0.999156      0.045219      0.951545
+xzy real   0.999060      0.044934      1.009487
+yxz real   0.998935      0.047529      1.002701
+yzx real   0.998936      0.042987      0.999010
+zxy real   0.999958      0.009644      0.999856
+zyx real   0.999947      0.011455      0.998290
+xxx imag   0.999377      0.037295      0.981307
+xyy imag   0.999485      0.034927      0.982345
+xzz imag   0.980554      0.212515      1.014852
+yxy imag   0.999463      0.038044      0.982999
+yyx imag   0.999652      0.030320      0.991132
+zxz imag   0.997212      0.076812      0.955350
+zzx imag   0.999319      0.035397      1.028625
+
+VASP k48 versus wannier
+component part correlation relative_L2 peak_ratio
+xyz real   0.997053      0.082988      0.949107
+xzy real   0.995214      0.098758      0.989648
+yxz real   0.997846      0.079598      0.963891
+yzx real   0.996134      0.093152      0.980467
+zxy real   0.998528      0.066162      0.920183
+zyx real   0.998534      0.067439      0.919269
+xxx imag   0.996808      0.143846      0.929849
+xyy imag   0.996656      0.143811      0.933618
+xzz imag   0.954511      0.323213      0.747683
+yxy imag   0.996788      0.139306      0.939061
+yyx imag   0.996147      0.140958      0.939301
+zxz imag   0.991875      0.145764      0.961797
+zzx imag   0.995463      0.100960      0.965664
